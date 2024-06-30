@@ -6,6 +6,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/simple_calc')
+def simple_calc():
+    return render_template('simple_calc.html')
 
     
 if __name__ == '__main__':
