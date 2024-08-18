@@ -1,17 +1,142 @@
 <html>
      <head>
             <title>KellyWeb</title> 
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .intro {
+                    font-weight: bold;
+                    font-style: italic;
+                    color: #336699;
+                    text-align: center;
+                    margin-top: 50px;
+                    font-size: 2em;
+                }
+                .content {
+                    margin: 20px auto;
+                    width: 80%;
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    background-color: #f0f0f0;
+                    text-align: justify;
+                    font-size: 1.1em;
+                }
+                .features-section {
+                    margin: 20px auto;
+                    width: 80%;
+                    padding: 10px;
+                    background-color: #e6f2ff;
+                    border: 1px solid #99ccff;
+                }
+                .features-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin: 20px 0;
+                }
+                .features-table th, .features-table td {
+                    border: 1px solid #ccc;
+                    padding: 10px;
+                    text-align: left;
+                }
+                .features-table th {
+                    background-color: #336699;
+                    color: white;
+                }
+                .features-table a {
+                    color: #336699;
+                    text-decoration: none;
+                }
+                .features-table a:hover {
+                    text-decoration: underline;
+                }
+                .image-container {
+                    text-align: center;
+                    margin: 20px 0;
+                }
+                .image-container img {
+                    width: 100%;
+                    max-width: 600px;
+                    height: auto;
+                    border: 2px solid #ccc;
+                }
+            </style>
      </head>
      <body>
-        <div>
-            <p>hello Kelly's web hello</p>
+        <div class="intro">
+            <p>Welcome to KellyWeb</p>
         </div>
-        <div>
-            <a href='/simple_calc'>Simple Calc</a>
-	</div>
-	<div>
-            <a href='/std_calc'>STD Calc</a>
+        <div class="content">
+            <p>The purpose of this website is to showcase the projects I've previously worked on and the knowledge I've acquired. Here, you'll find a comprehensive portfolio of my work, ranging from web development projects to various programming assignments. Each project represents a step in my journey of learning and growth in the field of technology.</p>
+            <p>On KellyWeb, I aim to demonstrate the practical applications of my skills through my internships. You will see detailed descriptions of each project, the challenges I faced, and the solutions I implemented. Additionally, this site serves as a repository of my learning experiences, where I share insights and techniques that I have found valuable.</p>
+            <p>I hope you find inspiration and useful information here. Thank you for visiting KellyWeb, and I look forward to sharing my work and ideas with you.</p>
+        </div>
+        <div class="image-container">
+            <img src="https://www.netscribes.com/wp-content/uploads/2019/06/Technology-Watch.jpg" alt="Descriptive text about the image">
+        </div>
+        <div class="features-section">
+            <table class="features-table">
+                <tr>
+                    <th>Number</th>
+                    <th>Feature</th>
+                    <th>Descptions</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td><a href='/simple_calc'>Simple Calc</a></td>
+                    <td>Input data list and get min value</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><a href='/std_calc'>STD</a></td>
+                    <td>Input data list and get std value</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><a href='/line_visual'>LineVisual</a></td>
+                    <td>Input data list and plot line</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><a href='/point_visual'>PointVisual</a></td>
+                    <td>Input data list and plot points</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><a href='/box_plot'>BoxPlot</a></td>
+                    <td>Input data list and plot boxplot</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><a href='/missing_value'>MissingValue</a></td>
+                    <td>Input data list and process missing value</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><a href='/exception_value'>ExceptionValue</a></td>
+                    <td>Input data list and get except value</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><a href='/predict_next_svm'>PredictNextSVM</a></td>
+                    <td>Input data list and predict next value by SVM</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><a href='/predict_next_rf'>PredictNextRF</a></td>
+                    <td>Input data list and predict next value by RF</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><a href='/predict_next_ann'>PredictNextANN</a></td>
+                    <td>Input data list and predict next value by ANN</td>
+                </tr>
+                <tr>
+                    <td>11</td>
+                    <td><a href='/llm_qa'>LLM-QA</a></td>
+                    <td>QA by LLM</td>
+                </tr>
+            </table>
         </div>
      </body>
 </html>
-
